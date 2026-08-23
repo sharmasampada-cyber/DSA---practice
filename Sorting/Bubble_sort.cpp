@@ -17,10 +17,12 @@ int main(){
     int n;
     cin>>n;
     int arr[n];
+    cout<<"Before sorting : ";
     for(int i=0 ; i<n ; i++){
         cin>>arr[i];
     }
     bubble_sort(arr,n);
+    cout<<"After sorting : ";
     for(int i=0 ; i<n ; i++){
         cout<<arr[i]<<" ";
     }
