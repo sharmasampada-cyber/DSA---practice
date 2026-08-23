@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// we can find both largest and second largest in same lopp
+
 int second_largest_element(int arr[] , int n){
     int largest=arr[0];
     for(int i=0 ; i<n ; i++){
